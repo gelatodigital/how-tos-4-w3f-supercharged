@@ -11,12 +11,12 @@ const func: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
 
   if (!isHardhat) {
     console.log(
-      `\nDeploying SimpleCounter to ${hre.network.name}. Hit ctrl + c to abort`
+      `\nDeploying SuperchargedOracle to ${hre.network.name}. Hit ctrl + c to abort`
     );
   
   }
 
-  await deploy("SimpleCounter", {
+  await deploy("SuperchargedOracle", {
     from: deployer,
     log: !isHardhat,
   });
@@ -24,6 +24,6 @@ const func: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
 
 
 
-func.tags = ["SimpleCounter"];
+func.tags = ["SuperchargedOracle"];
 
 export default func;

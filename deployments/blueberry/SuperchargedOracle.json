@@ -1,0 +1,178 @@
+{
+  "address": "0x454ee707F0e0745b2579D715F3B796B980aF272d",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "price",
+          "type": "uint256"
+        }
+      ],
+      "name": "CustomError",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "msgSender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "newCounterValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "IncrementCounter",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "timeStamp",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "price",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "msgSender",
+          "type": "address"
+        }
+      ],
+      "name": "PriceUpdated",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "counter",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_price",
+          "type": "uint256"
+        }
+      ],
+      "name": "updatePrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_price",
+          "type": "uint256"
+        }
+      ],
+      "name": "updatePriceRevert",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x03bed452a375fca1531f3afa8d13fe4b5541300bb67e5296f5310be11ecf3d9f",
+  "receipt": {
+    "to": null,
+    "from": "0xB65540bBA534E88EB4a5062D0E6519C07063b259",
+    "contractAddress": "0x454ee707F0e0745b2579D715F3B796B980aF272d",
+    "transactionIndex": 1,
+    "gasUsed": "164053",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x9158197908fb2c98c52986b70085b2a459a9eee4fb90f1578885044e2b869669",
+    "transactionHash": "0x03bed452a375fca1531f3afa8d13fe4b5541300bb67e5296f5310be11ecf3d9f",
+    "logs": [],
+    "blockNumber": 8353,
+    "cumulativeGasUsed": "164053",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "c45c3cfe9ce78226d405deb82d9cd498",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"}],\"name\":\"CustomError\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"msgSender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"newCounterValue\",\"type\":\"uint256\"}],\"name\":\"IncrementCounter\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"timeStamp\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"msgSender\",\"type\":\"address\"}],\"name\":\"PriceUpdated\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"counter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"updatePrice\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"updatePriceRevert\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/SuperchargedOracle.sol\":\"SuperchargedOracle\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/SuperchargedOracle.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.23;\\n\\ncontract SuperchargedOracle {\\n    uint256 public counter;\\n    uint256 public price;\\n\\n    event IncrementCounter(address msgSender, uint256 newCounterValue);\\n\\n    event PriceUpdated(\\n        uint256 indexed timeStamp,\\n        uint256 price,\\n        address msgSender\\n    );\\n\\n    error CustomError(uint256 price);\\n\\n    function increment() external {\\n        counter++;\\n        emit IncrementCounter(msg.sender, counter);\\n    }\\n\\n    function updatePrice(uint256 _price) external {\\n        price = _price;\\n\\n        emit PriceUpdated(block.timestamp, _price, msg.sender);\\n    }\\n\\n    function updatePriceRevert(uint256 _price) external {\\n        price = _price;\\n\\n        revert(\\\"Error Revert Price\\\");\\n    }\\n}\\n\",\"keccak256\":\"0x4ebd9b747140ef40d9de2a2a4c55046a16f1ef7f9ab065fca880c76c861e59bd\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610201806100206000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c806361bc221a1461005c5780638d6cc56d14610077578063a035b1fe1461008c578063b7277dcd14610095578063d09de08a146100a8575b600080fd5b61006560005481565b60405190815260200160405180910390f35b61008a61008536600461018b565b6100b0565b005b61006560015481565b61008a6100a336600461018b565b6100f2565b61008a610138565b60018190556040805182815233602082015242917f378b09391f49d01e482ba75312341912ad0652cb8aa8799b6b33b624bd65d9f2910160405180910390a250565b600181905560405162461bcd60e51b81526020600482015260126024820152714572726f722052657665727420507269636560701b604482015260640160405180910390fd5b600080549080610147836101a4565b90915550506000546040805133815260208101929092527f843b9ac3ea7e6a31a8814ff4780fd7cd514f5b50c5a7c61e47d7903f0a5fd9a3910160405180910390a1565b60006020828403121561019d57600080fd5b5035919050565b6000600182016101c457634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220b9b2060d99ad558f6108e1a63e4ede12f002ac0ec9ecd61c67769781750f728b64736f6c63430008170033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c806361bc221a1461005c5780638d6cc56d14610077578063a035b1fe1461008c578063b7277dcd14610095578063d09de08a146100a8575b600080fd5b61006560005481565b60405190815260200160405180910390f35b61008a61008536600461018b565b6100b0565b005b61006560015481565b61008a6100a336600461018b565b6100f2565b61008a610138565b60018190556040805182815233602082015242917f378b09391f49d01e482ba75312341912ad0652cb8aa8799b6b33b624bd65d9f2910160405180910390a250565b600181905560405162461bcd60e51b81526020600482015260126024820152714572726f722052657665727420507269636560701b604482015260640160405180910390fd5b600080549080610147836101a4565b90915550506000546040805133815260208101929092527f843b9ac3ea7e6a31a8814ff4780fd7cd514f5b50c5a7c61e47d7903f0a5fd9a3910160405180910390a1565b60006020828403121561019d57600080fd5b5035919050565b6000600182016101c457634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220b9b2060d99ad558f6108e1a63e4ede12f002ac0ec9ecd61c67769781750f728b64736f6c63430008170033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/SuperchargedOracle.sol:SuperchargedOracle",
+        "label": "counter",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 5,
+        "contract": "contracts/SuperchargedOracle.sol:SuperchargedOracle",
+        "label": "price",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
