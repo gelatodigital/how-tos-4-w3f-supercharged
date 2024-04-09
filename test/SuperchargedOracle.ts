@@ -1,6 +1,6 @@
 import hre from "hardhat";
 import { expect } from "chai";
-import { SimpleCounter } from "../typechain";
+import {  SuperchargedOracle } from "../typechain";
 import { before } from "mocha";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { time } from "@nomicfoundation/hardhat-network-helpers";
@@ -18,7 +18,7 @@ describe("SimpleCounter Tests", function () {
 
   let owner: SignerWithAddress;
 
-  let oracle: SimpleCounter;
+  let oracle: SuperchargedOracle;
   let simpleW3f: Web3FunctionHardhat;
   let userArgs: Web3FunctionUserArgs;
 
@@ -27,7 +27,7 @@ describe("SimpleCounter Tests", function () {
 
     [owner] = await hre.ethers.getSigners();
 
-    oracle = await ethers.getContract("SimpleCounter");
+    oracle = await ethers.getContract("SuperchargedOracle");
     simpleW3f = w3f.get("simple");
 
     userArgs = {
