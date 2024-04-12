@@ -1,4 +1,4 @@
-# How To #3 on Gelato: Supercharge your W3f
+# How To #4 on Gelato: Supercharge your W3f
 
 [![Video Walkthrough](https://img.youtube.com/vi/Qy-6eERrbKA/0.jpg)](https://youtu.be/Qy-6eERrbKA)
 
